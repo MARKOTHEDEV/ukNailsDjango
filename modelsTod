@@ -1,0 +1,24 @@
+
+Service
+    name =  * Nail Consultation *
+
+
+ServiceCategory:
+    image
+    service = one servce can have different category
+    service_category_amount = $65.00
+    service_category_category = 1 hour 35 minutes 
+    service_detial ='This freestyle is soft and 1 first level. NO HAND ART BEYOND FRENCHIES Soft freestyle includes: Ombre, Minimal bling, glitter, Side cut french, stickers and foil. *Only Book this service if You want me to freestyle on your nails! DO NOT BOOK THIS IF YOU HAVE A SET IN MIND!* You can choose your color.'
+
+
+ServiceCategoryAddOns:
+    ServiceCategory=one ServiceCategory can have plenty add on
+    add_on_name=Add SM3 Smart Nail Chip (Per Chip) +5 minutes  $60.00 
+    price = each add on has  a price attach to it
+
+
+BookingData:
+    name
+    email or phoneNumber
+    Total_price =ServiceCategory__amoutn + ServiceCategoryAddOns
+    ServiceCategory
